@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "xml"
+version = "0.1.0"
+description = ""
+authors = ["Alexsander-Pavlov-Test <soul.pam106@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.1"
+pydantic-settings = "^2.6.1"
+loguru = "^0.7.2"
+pytest = "^8.3.3"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
